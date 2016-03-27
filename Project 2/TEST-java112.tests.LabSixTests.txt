@@ -1,0 +1,15 @@
+Testsuite: java112.tests.LabSixTests
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.126 sec
+
+Testcase: runMethodVoidReturnTest took 0.018 sec
+Testcase: mainMethodSystemOutPrintlnNoArgumentsInputTest took 0.001 sec
+Testcase: mainMethodSystemOutPrintlnWithNotEnoughArgumentsTest took 0.001 sec
+Testcase: classCreatesOutputFileTest took 0 sec
+Testcase: outputFileHasCorrectLineOneTextText took 0 sec
+Testcase: outputFileHasCorrectLineTwoTextText took 0 sec
+Testcase: outputFileHasCorrectLineThreeTextText took 0 sec
+Testcase: classExists took 0 sec
+Testcase: noInstanceVariablesTest took 0 sec
+Testcase: mainMethodExistsTest took 0 sec
+Testcase: mainMethodVoidReturnTest took 0 sec
+Testcase: runMethodWithTwoStringParamsExistsTest took 0 sec
