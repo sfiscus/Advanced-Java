@@ -1,0 +1,22 @@
+Testsuite: java112.tests.LabSevenTests
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.172 sec
+
+Testcase: outputLineThreeTest took 0.01 sec
+Testcase: outputLineFourTest took 0.001 sec
+Testcase: outputLineFiveTest took 0 sec
+Testcase: outputLineSixTest took 0 sec
+Testcase: outputLineSevenTest took 0 sec
+Testcase: outputLineEightTest took 0.001 sec
+Testcase: outputLineNineTest took 0 sec
+Testcase: outputLineTenTest took 0.001 sec
+Testcase: oneInstanceVariableTest took 0 sec
+Testcase: mainMethodExistsTest took 0.001 sec
+Testcase: mainMethodVoidReturnTest took 0.004 sec
+Testcase: runMethodWithOneStringParameterExistsTest took 0.001 sec
+Testcase: runMethodVoidReturnTest took 0 sec
+Testcase: mainMethodSystemOutPrintlnNoArgumentsInputTest took 0.001 sec
+Testcase: mainMethodSystemOutPrintlnWithTooManyArgumentsTest took 0 sec
+Testcase: classCreatesOutputFileTest took 0.009 sec
+Testcase: outputLineOneTest took 0.001 sec
+Testcase: outputLineTwoTest took 0.002 sec
+Testcase: classExists took 0 sec
