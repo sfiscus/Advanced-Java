@@ -1,0 +1,34 @@
+package java112.labs1;
+
+import java.io.*;
+
+public class LabFive {
+
+    public static void main(String[] args) {
+        LabFive validate = new LabFive();
+
+        if (args.length != 2) {
+            System.out.println("Please enter two arguments on the command line, "
+                + "a file name and a message");
+        } else {
+            validate.run(args[0],args[1]);
+        }
+
+    }
+
+    public void run(String fileName,String message) {
+        PrintWriter out = null;
+
+        try {
+			out = new PrintWriter(new BufferedWriter(new FileWriter(fileName)));
+			out.println(message);
+            out.close();
+			
+		} catch (IOException ex) {
+			System.out.println("There was a problem reading the file");
+			ex.printStackTrace();
+		} 
+      
+    }    
+   
+}

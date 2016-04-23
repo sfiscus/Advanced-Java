@@ -1,0 +1,32 @@
+package java112.analyzer;
+
+/**
+ * This is the driver class for the project. The class will instantiate an instance of the 
+ * project's main processing class. The class will also call the main processing method
+ * of the main class passing the command line arguments array to the method.
+ *
+ * @author Sean Fiscus
+ */
+ 
+public class AnalyzerDriver {
+
+    /**
+     * The class will call the main processing method of the main class passing
+     * the command line arguments array to the method.
+     *
+     * @param arguements The input file path for the text file that will be analyzed and
+     * is provided by the user.
+     */
+     
+    public static void main(String[] arguments) {
+
+    	// Display a message telling the user the file is being analyzed
+        System.out.println("Your file is being analyzed. This will only take a minute.");
+  
+        // Create a new object called analyzer from the AnalyzeFile constructor
+        AnalyzeFile analyzer = new AnalyzeFile();
+        
+        // Using analyzer call the runAnalysis method with arguments as the parameter.
+        analyzer.runAnalysis(arguments);
+    }
+}

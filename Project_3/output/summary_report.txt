@@ -1,0 +1,6 @@
+Application: Word Split
+Author: Sean Fiscus
+Email: sfiscus@madisoncollege.edu
+Input file: /home/student/Dropbox/projects/bigFile.txt
+Analyzed on: Sat Apr 16 20:29:47 CDT 2016
+Total Token Count: 4468588
