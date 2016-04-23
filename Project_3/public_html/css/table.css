@@ -1,0 +1,15 @@
+table, tr, th, td {
+    border: 5px solid #00334d;
+    table-layout: fixed;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border-spacing: 10px;
+    font-size: 15px;
+}
+
+.tbView {
+    padding: 5px;
+    border-spacing: 5px;
+    border-collapse: collapse;
+}
